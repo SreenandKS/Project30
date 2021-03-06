@@ -100,6 +100,10 @@ function draw(){
     slingshot.display();
 
     polygon.debug = true;
+    
+    fill(0);
+    textSize(20);
+    text("Drag the hexagonal stone and release it, to launch it towards the blocks",100,20);
 }
 
 function mouseDragged(){
